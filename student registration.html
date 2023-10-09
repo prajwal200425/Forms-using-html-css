@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <style>
+        body {
+            background-image: linear-gradient(To right, skyblue, gray);
+        }
+
+        h2 {
+            text-align: center;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+        }
+
+        .container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding-bottom: 34px;
+        }
+
+        #label {
+            font-size: 1.5rem;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            color: burlywood;
+
+        }
+
+        form {
+            width: 30%;
+        }
+
+        .form-group input {
+            width: 100%;
+            padding: 0.5rem;
+            border-radius: 9px;
+            font-size: 1.2rem;
+
+        }
+
+        textarea {
+            width: 100%;
+            padding: 0.5rem;
+            border-radius: 9px;
+            font-size: 1.5rem;
+        }
+
+        select {
+            width: 100%;
+            padding: 0.5rem;
+            border-radius: 9px;
+            font-size: 1.1rem;
+            color: brown;
+        }
+
+        #gender {
+            width: 6%;
+            padding: 0.5rem;
+            border-radius: 9px;
+            font-size: 1.1rem;
+        }
+
+        .btn {
+            width: 105%;
+            padding: 0.5rem;
+            border-radius: 9px;
+        }
+        .btn:hover{
+            color: skyblue;
+            background-color: black;
+        }
+    </style>
+</head>
+<body>
+    <h2>Student Registeration Form</h2>
+    <hr>
+    <div class="container">
+        <form action="#" class="form">
+            <div class="form-group">
+                <label for="First name">First name</label>
+                <input type="text" name="First name" id="First name" placeholder="First name">
+            </div>
+            <br>
+            <div class="form-group">
+                <label for=" Middle name">Middle name</label>
+                <input type="text" name="Middle name" id="Middle name" placeholder=" Middle name">
+            </div>
+            <br>
+            <div class="form-group">
+                <label for="Last name">Last name</label>
+                <input type="text" name="Last name" id="Last name" placeholder="Last name">
+            </div>
+            <br>
+            <div class="contact-box">
+                <label for="Course">Course</label>
+                <select name="Course" id="Course" class="select">
+                    <option value="Programming Languages">Programming Languages</option>
+                    <option value="Machine Learning">Machine Learning</option>
+                    <option value="MS-Office">MS-Office</option>
+                    <option value="Technical Course">Technical Course</option>
+                    <option value="Spoken English">Spoken English</option>
+                </select>
+            </div>
+            <br>
+            <div>
+                Male: <input type="radio" name="gender" id="gender"> Female: <input type="radio" name="gender"
+                    id="gender">
+            </div>
+            <br>
+            <div class="form-group">
+                <label for="Phone:">Phone:</label>
+                <input type="number" name="Phone:" id="Phone:" placeholder="Phone:">
+            </div>
+            <br>
+            <div class="address">
+                <label for="Address">Address</label>
+                <textarea name="Address" id="Address" cols="10" rows="5" placeholder="Address"></textarea>
+            </div>
+            <br>
+            <div class="form-group">
+                <label for="Email">Email</label>
+                <input type="email" name="Email" id="Email" placeholder="Email">
+            </div>
+            <br>
+            <div class="form-group">
+                <label for="Password">Password</label>
+                <input type="Password" name="Password" id="Password" placeholder="Password">
+            </div>
+            <br>
+            <div class="form-group">
+                <label for=" Re-type Password"> Re-type Password</label>
+                <input type=" Re-type Password" name=" Re-type Password" id=" Re-type Password"
+                    placeholder=" Re-type Password">
+            </div>
+            <br>
+            <input type="button" value="Submit" class="btn">
+        </form>
+    </div>
+</body>
+</html>

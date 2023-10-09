@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Form</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <style>
+  
+        .container {
+            margin-top: 8%;
+            margin-left: 35%;
+            height: 390px;
+            width: 350px;
+            background-color: #f5efef;
+            border-radius: 6px 6px ;
+            box-shadow: 10px 10px 10px rgb(244, 235, 235);
+            
+
+        }
+
+        .title {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: blue;
+
+        }
+
+        .fa-brands {
+            font-size: 28px;
+            padding: 4px 6px;
+            color: blue;
+        }
+
+        .form {
+            margin-left: 41PX;
+            padding: 8PX;
+
+        }
+
+
+
+        input {
+            width: 250px;
+            height: 25px;
+            padding: 2px 4px;
+            border-radius: 4px 4px 4px;
+            border: 2px solid rgb(230, 212, 212);
+        }
+
+        .username {
+            margin-top: 8px;
+
+
+        }
+
+        .pass {
+            margin-top: 8px;
+        }
+
+        #btn {
+            width: 261px;
+            height: 30px;
+            margin-top: 8px;
+            background-color: rgb(62, 62, 243);
+            color: white;
+            font-size: .90rem;
+            border: none;
+            font-family: sans-serif;
+        }
+
+        span {
+            display: flex;
+            justify-content: center;
+            margin-top: 12px;
+            color: blue;
+            font-weight: 500;
+        }
+
+        #hr1 {
+            width: 120px;
+        }
+
+        #hr2 {
+            width: 120px;
+        }
+
+
+        .line {
+            display: flex;
+            margin-top: 8px;
+            margin-right: 22px;
+        }
+
+        a {
+            text-decoration: none;
+            color: black;
+        }
+
+        #btn2 {
+            height: 33px;
+            width: 170px;
+            margin-left: 41px;
+            margin-top: 10px;
+            color: white;
+            background-color: rgb(36, 151, 36);
+            border: none;
+
+        }
+        #btn:hover{
+            background-color: rgb(125, 125, 201);
+        }
+    </style>
+
+</head>
+
+<body>
+    <div class="container">
+        <div class="title">
+            <i class="fa-brands fa-facebook"></i>
+            <h1>Facebook</h1>
+        </div>
+        <div class="form">
+
+            <form action="#" class="main">
+                <div class="username">
+                    <input type="text" placeholder="Email or phone number">
+                </div>
+                <div class="pass">
+                    <input type="password" placeholder="Password">
+                </div>
+                <div>
+                    <input type="button" value="Log in" id="btn">
+                </div>
+                <div>
+                    <span>Account Forgot?</span>
+                </div>
+                <div class="line">
+                    <hr id="hr1"> <a href="">Or</a>
+                    <hr id="hr2">
+                </div>
+                <div>
+                    <input type="submit" value="create new account" id="btn2">
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>
